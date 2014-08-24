@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>cryptis</title>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8"/>
+
+    <link rel="icon" type="image/png" href="img/logo-logo-ico.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css"/>-->
+
+    <link rel="stylesheet" href="css/index.css"/>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <ul class="nav nav-pills pull-right">
+            <li><a href="/">Проект</a></li>
+            <li><a href="proto.html">Прототип</a></li>
+            <li class="active"><a href="team.html">Команда</a></li>
+        </ul>
+        <a href="/"><img src="img/logo-cryptis.png" height="40px" style="margin-bottom: 10px"/></a>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1>Команда</h1>
+
+            <p>Мы - небольшая команда разработчиков проекта. Территориально находимся в г. Пермь.</p>
+
+            <ul>
+                <li><p><strong>Павел Вахрушев</strong> - студент ПермскогоГНИУ, мехмат - <span
+                        style="text-decoration: underline;">автор и основатель проекта, разработчик</span></p></li>
+                <li><p><strong>Михаил Швеин</strong> - студент ПермскогоГНИУ, мехмат - <span
+                        style="text-decoration: underline;">разработчик</span></p></li>
+                <li><p><strong>Иван Бойцов</strong> - студент ПермскогоГНИУ, экономический факультет - <span
+                        style="text-decoration: underline;">маркетолог</span></p></li>
+                <li><p><strong>Антон Фирсов</strong> - старший преподаватель ПермскогоГНИУ - <span
+                        style="text-decoration: underline;">эксперт</span></p></li>
+            </ul>
+            <p>Связаться с нами <a href="mailto:team@cryptis.ru" target="_top">team@cryptis.ru</a>.</p>
+        </div>
+    </div>
+
+    <div class="navbar-fixed-bottom row-fluid">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="footer">
+                    <div style="display: none;" class="alert alert-success"></div>
+                    <div class="row" style="margin-top: -5px;">
+                        <div class="col-sm-6">
+                            <form>
+                                <div class="input-group text-right">
+                                    <span class="input-group-addon">Новости</span>
+                                    <input type="text" class="form-control" placeholder="@Email"
+                                           style="border-right: 0px;" id="subscribe-email">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" onclick="subscribe()">Подписаться</button>
+                        </span>
+                                </div>
+                            </form>
+
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <div id="vk_like" style="display: inline-block;"></div>
+                        </div>
+                        <div class="col-sm-2 text-right col-sm-offset-1">
+                            <span class="my-pseudo-btn">&copy; Cryptis 2013</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /container -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+<!--<script src="js/jquery.js"></script>-->
+<script src="js/bootstrap.js"></script>
+<!--VK-->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?97"></script>
+<!--page-->
+<script src="js/index.js"></script>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-47675315-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</body>
+</html>

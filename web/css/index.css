@@ -1,0 +1,151 @@
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 650px;
+    min-height: 610px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        /*max-width: 730px;*/
+        max-width: 800px;
+    }
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /*.footer {*/
+    /*position:absolute;*/
+    /*bottom:0;*/
+    /*}*/
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+.my-navi {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#my-navi-cryptis-ico {
+    height: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    margin-bottom: -16px;
+}
+
+#my-navi-div {
+    /*margin-top: -15px;*/
+}
+
+.my-pseudo-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    /*cursor: pointer;*/
+    border: 1px solid transparent;
+    /*border-radius: 4px;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.my-item {
+    margin-bottom: 10px !important;
+    min-height: 300px;
+    /*padding: 20px;*/
+    /*background-color: #F4F4FF !important;*/
+    background-color: #f2f2f2;
+    /*color: #000;*/
+}
+
+.my-cryptis-font {
+    font-family: 'Quantico', sans-serif;
+    /*font-weight: 700;*/
+    /*font-size: 14px;*/
+}
+
+.my-cryptis-bold-font {
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+    /*font-size: 14px;*/
+}
