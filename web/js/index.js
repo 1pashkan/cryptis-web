@@ -51,7 +51,7 @@ function normalizeScreensHeight() {
 
 function subscribe() {
     $.ajax({
-        url: '/actions/subscribe.php',
+        url: '/actions/subscribe',
         data: {
             email: $('#subscribe-email').val()
         },
