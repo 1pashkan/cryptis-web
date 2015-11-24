@@ -4,5 +4,5 @@ FROM java:8
 VOLUME /tmp
 ADD web-1.0.0.jar cryptis-web.jar
 RUN bash -c 'touch /cryptis-web.jar'
-EXPOSE 8080 22
+EXPOSE 8080
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/cryptis-web.jar"]
