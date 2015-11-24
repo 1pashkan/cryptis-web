@@ -37,7 +37,6 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
     .container {
-        /*max-width: 730px;*/
         max-width: 800px;
     }
 }
@@ -76,11 +75,6 @@ body {
         padding-right: 0;
     }
 
-    /*.footer {*/
-    /*position:absolute;*/
-    /*bottom:0;*/
-    /*}*/
-
     /* Space out the masthead */
     .header {
         margin-bottom: 30px;
@@ -105,10 +99,6 @@ body {
     margin-bottom: -16px;
 }
 
-#my-navi-div {
-    /*margin-top: -15px;*/
-}
-
 .my-pseudo-btn {
     display: inline-block;
     padding: 6px 12px;
@@ -119,9 +109,7 @@ body {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    /*cursor: pointer;*/
     border: 1px solid transparent;
-    /*border-radius: 4px;*/
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -132,20 +120,14 @@ body {
 .my-item {
     margin-bottom: 10px !important;
     min-height: 300px;
-    /*padding: 20px;*/
-    /*background-color: #F4F4FF !important;*/
     background-color: #f2f2f2;
-    /*color: #000;*/
 }
 
 .my-cryptis-font {
     font-family: 'Quantico', sans-serif;
-    /*font-weight: 700;*/
-    /*font-size: 14px;*/
 }
 
 .my-cryptis-bold-font {
     font-family: 'Quantico', sans-serif;
     font-weight: 700;
-    /*font-size: 14px;*/
 }
