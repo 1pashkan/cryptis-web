@@ -67,6 +67,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
                     <finalName>cryptis-web</finalName>
+                    <useDefaultManifestFile>true</useDefaultManifestFile>
                 </configuration>
             </plugin>
         </plugins>

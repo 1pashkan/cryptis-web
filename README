@@ -3,7 +3,7 @@ Cryptis database website
 !!BUILD
 mvn spring-boot:run - run server locally
 mvn clean package - create executable jar
-docker build -f src/main/docker/Dockerfile /target/
+docker build -f src/main/docker/Dockerfile target/
 
 Контейнер зависит от базы данных
 SPRING_DATASOURCE_PASSWORD - пароль к контейнеру с СУБД postgres
