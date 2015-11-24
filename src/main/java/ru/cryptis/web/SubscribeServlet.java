@@ -1,4 +1,4 @@
-package cryptisweb;
+package ru.cryptis.web;
 
 import javax.naming.InitialContext;
 import javax.servlet.ServletException;
