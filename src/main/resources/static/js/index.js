@@ -17,6 +17,9 @@ $(document).ready(function() {
         $(".btn-sm:not(.my-navi):nth-child("+(2+index)+")").addClass("active");
     });
     $("#my-carousel").carousel("cycle");
+
+    // set year
+    $('#copyright').html("&copy; Cryptis " + new Date().getFullYear());
 });
 
 function centerJumbo() {
@@ -67,7 +70,7 @@ function subscribe() {
     function showFail() {
         $('.alert').removeClass('alert-success');
         $('.alert').addClass('alert-info');
-        $('.alert').text('Этот email уже зарегистрирован');
+        $('.alert').text(locale.email.emailAlreadyRegistered);
         $('.alert').fadeIn('slow', function() {
             setTimeout("$('.alert').fadeOut('slow');", 1500);
         });
@@ -76,7 +79,7 @@ function subscribe() {
     function showSuccess() {
         $('.alert').removeClass('alert-info');
         $('.alert').addClass('alert-success');
-        $('.alert').text('Спасибо за подписку! Email зарегистрирован');
+        $('.alert').text(locale.email.emailRegisteredThanks);
         $('.alert').fadeIn('slow', function() {
             setTimeout("$('.alert').fadeOut('slow');", 1500);
         });
