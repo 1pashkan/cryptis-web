@@ -1,13 +1,7 @@
 $(document).ready(function() {
-// center
     centerJumbo();
-//    normalizeScreensHeight();
 
-// vk
-//    VK.init({apiId: 3863818, onlyWidgets: true});
-//    VK.Widgets.Like("vk_like", {type: "mini", height: 24});
-
-// my-navi
+    // my-navi
     $("#my-carousel").on("slide.bs.carousel", function (e) {
         console.log(213);
         $(".btn-sm:not(.my-navi)").each(function () {
