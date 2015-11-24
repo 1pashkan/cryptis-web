@@ -57,15 +57,8 @@ function subscribe() {
         url: '/actions/subscribe',
         data: {
             email: $('#subscribe-email').val()
-        },
-        dataType: 'json'
-    }).done(function(data) {
-        if (data.success) {
-            showSuccess();
-        } else {
-            showFail();
         }
-    }).fail(showFail);
+    }).done(showSuccess).fail(showFail);
 
     function showFail() {
         $('.alert').removeClass('alert-success');
