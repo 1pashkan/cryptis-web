@@ -18,7 +18,8 @@ public class WebApplication {
         return new WebMvcConfigurerAdapter() {
             @Override
             public void addViewControllers(ViewControllerRegistry registry) {
-                registry.addViewController("/en").setViewName("forward:/en/index.html");
+                registry.addViewController("/en").setViewName("redirect:/en/");
+                registry.addViewController("/en/").setViewName("forward:/en/index.html");
             }
         };
     }
