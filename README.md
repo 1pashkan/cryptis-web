@@ -1,26 +1,28 @@
-#Cryptis Web
+## Cryptis Web
 Website for Cryptographic NoSQL Cloud Database.
-http://cryptis.ru/ - russian
-http://cryptis.ru/en/ - english
 
-#Powered By
+Russian - http://cryptis.ru/
+
+English - http://cryptis.ru/en/
+
+### Powered By
 * Spring Boot
 * PostgreSQL
 * Docker
 * Bootstrap
 
-#Build
-mvn clean compile - compilation
-mvn spring-boot:run - run server locally
-mvn clean package - create executable jar with Spring Boot
-./create-docker.sh - make docker container with entire project
+### Build
+* mvn clean compile - compilation
+* mvn spring-boot:run - run server locally
+* mvn clean package - create executable jar with Spring Boot
+* ./create-docker.sh - make docker container with entire project
 
-#Run
+### Run
 Project use Docker Compose, you have to tune settings below for container:
-* SPRING_DATASOURCE_PASSWORD - postgres user password for PostgreSQL
-* SPRING_PROFILES_ACTIVE - set to 'production' to activate production mode (check resources/application-production.properties)
+* `SPRING_DATASOURCE_PASSWORD` - postgres user password for PostgreSQL
+* `SPRING_PROFILES_ACTIVE` - set to `production` to activate production mode (check resources/application-production.properties)
 
-#Docker compose example
+### Docker compose example
 ```
 cryptis-web:
   image: ru.cryptis/web
