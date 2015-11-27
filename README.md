@@ -5,7 +5,7 @@ Russian - http://cryptis.ru/
 
 English - http://cryptis.ru/en/
 
-### Powered By
+### Technology stack
 * Spring Boot
 * PostgreSQL
 * Docker
