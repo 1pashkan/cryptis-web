@@ -1,9 +1,11 @@
 ## Cryptis Web
-Website for Cryptographic NoSQL Cloud Database.
+Website for Cryptis - Cryptographic NoSQL Cloud Database
 
-Russian - http://cryptis.ru/
+Cryptis project on GitHub - https://github.com/1pashkan/cryptis
 
-English - http://cryptis.ru/en/
+Russian site - http://cryptis.ru/
+
+English site - http://cryptis.ru/en/
 
 ### Technology stack
 * Spring Boot
