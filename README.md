@@ -1,5 +1,5 @@
 ## Cryptis Web
-**Cryptis project on GitHub - https://github.com/1pashkan/cryptis**
+**Cryptis project on GitHub - 1pashkan/cryptis**
 
 Website for Cryptis - Cryptographic NoSQL Cloud Database
 
