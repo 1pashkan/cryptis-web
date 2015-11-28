@@ -20,6 +20,9 @@ public class WebApplication {
             public void addViewControllers(ViewControllerRegistry registry) {
                 registry.addViewController("/en").setViewName("redirect:/en/");
                 registry.addViewController("/en/").setViewName("forward:/en/index.html");
+                registry.addViewController("/ru").setViewName("redirect:/ru/");
+                registry.addViewController("/ru/").setViewName("forward:/ru/index.html");
+
             }
         };
     }

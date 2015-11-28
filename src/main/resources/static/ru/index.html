@@ -8,58 +8,69 @@
     <link rel="icon" type="image/png" href="/img/logo-logo-ico.png">
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/index.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Quantico:700' rel='stylesheet' type='text/css'>
+
+    <style>
+        @font-face {
+        font-family: 'Quantico';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Quantico-Bold'), url(/fonts/quantico.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212,
+        U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+    </style>
+
 </head>
 <body>
 
 <div class="container">
     <div class="header">
         <ul class="nav nav-pills pull-right">
-            <li class="active"><a href="#">Project</a></li>
-            <li><a href="proto.html">Prototype</a></li>
-            <li><a href="/ru/"><img src="/img/ru.png" height="21px"></a></li>
+            <li class="active"><a href="#">Проект</a></li>
+            <li><a href="/ru/proto.html">Прототип</a></li>
+            <li><a href="/en/"><img src="/img/en.png" height="21px"></a></li>
         </ul>
-        <a href="/en/"><img src="/img/logo-cryptis.png" height="40px" style="margin-bottom: 10px"/></a>
+        <a href="/ru/"><img src="/img/logo-cryptis.png" height="40px" style="margin-bottom: 10px"/></a>
     </div>
 
     <div class="my-content">
         <div id="my-carousel" class="carousel slide" style="" data-interval="7000">
             <div class="carousel-inner">
                 <div class="item my-item jumbotron active">
-                    <img src="../img/logo-logo.png" height="250px"
+                    <img src="/img/logo-logo.png" height="250px"
                          style="height: 200px !important; float: left; margin-right: 30px;"/>
 
                     <h1 class="my-cryptis-bold-font" style="margin-top: -20px;">cryptis</h1>
 
                     <p class="lead text-center" style="margin-top: -5px;">
-                        cryptographic database
+                        криптографическая база данных
                     </p>
 
                     <p class="lead text-left">
-                        Securely keeps your data.
+                        Надежно хранит ваши данные.
                     </p>
 
                     <p class="lead text-left" style="margin-top: -10px;">
-                        Inside a cloud.
+                        Внутри облака.
                     </p>
 
                     <p class="lead text-left" style="margin-top: -10px; margin-bottom: -15px;">
-                        Cheap.
+                        Дешевле.
                     </p>
                 </div>
                 <div class="item my-item jumbotron">
                     <img src="/img/grow-transparent.png" height="200px"
                          style="height: 200px !important; float: left; margin-right: 30px; margin-left: -10px;"/>
 
-                    <p class="lead"><strong>Problem</strong></p>
+                    <p class="lead"><strong>Проблема</strong></p>
 
                     <p class="lead text-left">
-                        Storage of information within the organization is <strong>expensive</strong>:
-                        the equipment, personnel, facilities
+                        Ценную информацию <strong>дорого хранить</strong> внутри организации:
+                        оборудование, персонал, помещения.
                     </p>
 
                     <p class="lead text-left" style="margin-bottom: -15px;">
-                        High costs do not guarantee safety
+                        При больших затратах безопасность не гарантируется.
                     </p>
                 </div>
                 <div class="item my-item jumbotron">
@@ -69,46 +80,46 @@
                          margin-top: 60px;"/>
 
                     <div>
-                        <p class="lead"><strong>Idea</strong></p>
+                        <p class="lead"><strong>Идея</strong></p>
 
                         <p class="lead text-left" style="margin-bottom: -15px;">
-                            Transferring data into the cloud<br/>
-                            Full data encryption<br/>
-                            Without decryption in the cloud<br/>
-                            Transparency for programs<br/>
-                            ​​NoSQL solution speed<br/>
+                            Перенос данных внутрь облака.
+                            Полное шифрование информации.
+                            Без расшифровки в облаке.
+                            Прозрачность для программ.
+                            Скорость NoSQL решения.
                         </p>
                     </div>
                 </div>
                 <div class="item my-item jumbotron">
                     <div class="text-center">
-                        <img src="/en/img/org-cryptis-cloud.png" height="200px"
+                        <img src="/img/org-cryptis-cloud.png" height="200px"
                              style="height: 170px !important;
                      width: 550px;
                      margin-left: 10px;
                      margin-top: -20px;"/>
                     </div>
                     <ul class="text-left" style="float: left; list-style: none;margin-bottom: -25px;">
-                        <li>+ transparency</li>
-                        <li style="margin-top: -10px;">+ easy integration</li>
+                        <li>+ прозрачность</li>
+                        <li style="margin-top: -10px;">+ легкость внедрения</li>
                     </ul>
                     <ul class="text-left" style="float: right; list-style: none;margin-bottom: -25px;">
-                        <li>+ speed</li>
-                        <li style="margin-top: -10px;">+ cross-platform</li>
+                        <li>+ скорость</li>
+                        <li style="margin-top: -10px;">+ на любых платформах</li>
                     </ul>
                 </div>
                 <div class="item my-item jumbotron">
                     <img src="/img/market.png" height="200px"
                          style="height: 200px !important; float: left; margin-right: 40px; margin-left: -10px;"/>
 
-                    <p class="lead"><strong>Market</strong></p>
+                    <p class="lead"><strong>Рынок</strong></p>
 
                     <p class="lead text-left">
-                        Commercial organizations with valuable data
+                        Коммерческие организации с ценными данными
                     <ul class="text-left" style="margin-bottom: -25px; margin-left: 20px;">
-                        <li style="margin-top: -20px;">customer data</li>
-                        <li style="margin-top: -20px;">trade secrets</li>
-                        <li style="margin-top: -20px;">document flow</li>
+                        <li style="margin-top: -20px;">базы клиентов</li>
+                        <li style="margin-top: -20px;">секреты производства</li>
+                        <li style="margin-top: -20px;">документооборот</li>
                     </ul>
                     </p>
                 </div>
@@ -116,16 +127,15 @@
                     <img src="/img/profit.png" height="200px"
                          style="height: 200px !important; float: left; margin-right: 30px; margin-left: -10px;"/>
 
-                    <p class="lead"><strong>Profit</strong></p>
+                    <p class="lead"><strong>Профит</strong></p>
 
                     <ul class="text-left" style="list-style: none; margin-bottom: -20px">
-                        <li style="margin-top: -5px;">+ speed</li>
-                        <li style="margin-top: -10px;">+ price</li>
-                        <li style="margin-top: -10px;">+ transparency</li>
-                        <li style="margin-top: -10px;"><strong>+ security</strong></li>
+                        <li style="margin-top: -5px;">+ скорость</li>
+                        <li style="margin-top: -10px;">+ стоимость</li>
+                        <li style="margin-top: -10px;">+ прозрачность</li>
+                        <li style="margin-top: -10px;"><strong>+ безопасность</strong></li>
                     </ul>
                 </div>
-
 
             </div>
             <div class="text-center" id="my-navi-div">
@@ -137,19 +147,19 @@
                             id="my-navi-cryptis-ico"/> <span class="my-cryptis-font">cryptis</span>
                 </button>
                 <button type="button" class="btn btn-info btn-sm" data-target="#my-carousel" data-slide-to="1"><span
-                        class="glyphicon glyphicon-lock"></span> Problem
+                        class="glyphicon glyphicon-lock"></span> Проблема
                 </button>
                 <button type="button" class="btn btn-info btn-sm" data-target="#my-carousel" data-slide-to="2"><span
-                        class="glyphicon glyphicon-map-marker"></span> Idea
+                        class="glyphicon glyphicon-map-marker"></span> Идея
                 </button>
                 <button type="button" class="btn btn-info btn-sm" data-target="#my-carousel" data-slide-to="3"><span
-                        class="glyphicon glyphicon-plus"></span> Advantage
+                        class="glyphicon glyphicon-plus"></span> Плюсы
                 </button>
                 <button type="button" class="btn btn-info btn-sm" data-target="#my-carousel" data-slide-to="4"><span
-                        class="glyphicon glyphicon-user"></span> Market
+                        class="glyphicon glyphicon-user"></span> Рынок
                 </button>
                 <button type="button" class="btn btn-info btn-sm" data-target="#my-carousel" data-slide-to="5"><span
-                        class="glyphicon glyphicon-euro"></span> Profit
+                        class="glyphicon glyphicon-euro"></span> Профит
                 </button>
                 <button type="button" class="btn btn-info my-navi btn-sm" data-target="#my-carousel"
                         data-slide="next">&raquo;</button>
@@ -159,7 +169,7 @@
         <p></p>
 
         <div class="text-center" style="margin-top: 30px;">
-            <a class="btn btn-lg btn-success" href="/en/proto.html">Prototype</a>
+            <a class="btn btn-lg btn-success" href="/ru/proto.html">Прототип</a>
         </div>
     </div>
 
@@ -172,11 +182,11 @@
                         <div class="col-sm-6">
                             <form>
                                 <div class="input-group text-right">
-                                    <span class="input-group-addon">News</span>
+                                    <span class="input-group-addon">Новости</span>
                                     <input type="text" class="form-control" placeholder="@Email"
                                            style="border-right: 0px;" id="subscribe-email">
                         <span class="input-group-btn">
-                            <button class="btn btn-default" type="button" onclick="subscribe()">Subscribe</button>
+                            <button class="btn btn-default" type="button" onclick="subscribe()">Подписаться</button>
                         </span>
                                 </div>
                             </form>
@@ -202,8 +212,9 @@
 <script src="/js/jquery.js"></script>
 <script src="/js/bootstrap.js"></script>
 
-<script src="/en/locale-en.js"></script>
+<script src="/ru/locale-ru.js"></script>
 <script src="/js/index.js"></script>
+
 <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-47675315-1']);
@@ -214,6 +225,7 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
+
 
 </script>
 </body>

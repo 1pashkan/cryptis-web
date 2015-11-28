@@ -3,7 +3,6 @@ $(document).ready(function() {
 
     // my-navi
     $("#my-carousel").on("slide.bs.carousel", function (e) {
-        console.log(213);
         $(".btn-sm:not(.my-navi)").each(function () {
             $(this).removeClass("active")
         });
