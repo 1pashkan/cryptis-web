@@ -22,7 +22,6 @@ public class WebApplication {
                 registry.addViewController("/en/").setViewName("forward:/en/index.html");
                 registry.addViewController("/ru").setViewName("redirect:/ru/");
                 registry.addViewController("/ru/").setViewName("forward:/ru/index.html");
-
             }
         };
     }
