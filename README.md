@@ -1,11 +1,13 @@
 ## Cryptis Web
-**Cryptis project on GitHub - [1pashkan/cryptis](https://github.com/1pashkan/cryptis)**
+**Cryptis project on GitHub - [1vahron/cryptis](https://github.com/1vahron/cryptis)**
+
+**Cryptis web-site project on GitHub - [1vahron/cryptis-web](https://github.com/1vahron/cryptis-web)**
 
 Website for Cryptis - Cryptographic NoSQL Cloud Database
 
-Russian site - http://cryptis.ru/ru/
+Russian site - https://cryptis.ru/ru/
 
-English site - http://cryptis.ru/en/
+English site - https://cryptis.ru/en/
 
 ### Technology stack
 * Spring Boot
